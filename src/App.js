@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import wallpaper from './assets/Wallpaper Bootcamp - 1440x900.png'
+import TechList from './components/TechList';
 
 function App() {
-  return <img src={wallpaper} />
+  return <TechList />
 }
 
 export default App;
